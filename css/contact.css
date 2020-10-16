@@ -1,0 +1,228 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    padding-left: 80px;
+    background-color:  #343434;
+    
+}
+
+.logoContainer {
+    /* border: solid 1px red; */
+    width: 180px;
+   
+}
+.logoContainer img{
+    /* border: solid 1px red; */
+    width: 100%;
+    /* border: 1px solid red; */
+} 
+
+
+
+#logg{
+    color: red !important;
+}
+
+.navbar img{
+    height: 25%;
+    width: 100%;
+}
+
+
+.navbar-nav{
+    margin-left: 15%;
+    /* border: solid 1px red; */
+}
+
+.navbar-nav a{
+    padding-left: 40px !important;
+    color: white !important;
+    font-size: 18px;
+}
+
+.navbar-nav a:hover{
+    color: red !important;
+
+}
+
+.dropdown-menu a{
+    color: black !important;
+}
+
+.lll {
+    /* border: solid 1px blue; */
+    margin-left: 10%;
+   
+}
+
+#jkkk{
+    /* border: solid 1px red; */
+    margin-right: 20px;
+    background-color: rgba(29, 73, 122, 0.849);
+    color: white;
+}
+
+
+#jooo {
+    border: solid 1px green;
+    text-align: center;
+    padding-left: 10px !important;
+    padding-right: 10px;
+    border-radius: 9px; 
+}
+
+ /* end of nav-bar styling */
+ .sec-one{
+/* box-sizing: border-box;
+overflow: hidden; */
+margin-bottom: 80px;
+ }
+
+ .cont{
+    padding: 0px,0px,0px,0px;
+ }
+.banner {
+    width: 100%;
+    background-size: cover;
+}
+ .banner img{
+    width: 100%;  
+ }
+
+ /* end of section one */
+ /* section two begins */
+
+ .whot img{
+     padding-top: 50px;
+     width: 80%;
+ }
+ 
+ 
+ .what h2{
+     text-align: center;
+     padding-top: 50px;
+ }
+
+ 
+
+
+/* footer region editing */
+    .sec-six{
+        background-color: #343434;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+
+    .sec-six a{
+        text-decoration: none;
+        color: white;
+        margin-top: 80px;
+    }
+
+    .sec-six a:hover{
+        text-decoration: none;
+        color: rgb(231, 169, 231);
+    }
+
+    .social .icons{
+        padding-top: 20px;
+    }
+
+        .foots{
+            text-align: center;
+            color: white;
+            padding-top: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media(max-width:720px){
+     .navbar-nav{
+        text-align: right;
+      padding-right: 15px;
+     }
+
+  .jkkk{
+           margin-right: 0px !important;
+           padding-right: 0px;
+        }
+
+        .lll {
+            margin-left: 0%;
+            padding-right: 0px;
+            text-align: right;
+        } 
+
+
+
+
+
+
+
+ }

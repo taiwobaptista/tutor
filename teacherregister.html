@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/teacherregister.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Nav-bar Begins -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="logoContainer">
+            <a class="navbar-brand" href="index.html"><img src="images/homewhitenew.png" class="img-fluid" alt=""></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" id="logg" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Join Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="studentregister.html">As a Student</a>
+                        <a class="dropdown-item" href="teacherregister.html">As a Teacher</a>
+                    </div>
+                </li>
+            </ul>
+
+
+            <ul class="navbar-nav lll">
+                <li class="nav-item" id="jkkk">
+                    <a class="nav-link" id="jooo" type="buttom" href="studentlogin.html">Student Login</a>
+                </li>
+
+                <li class="nav-item" id="jkkk">
+                    <a class="nav-link" id="jooo" type="buttom" href="teacherlogin.html">Teacher Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+
+
+
+    <!-- Body section begins -->
+    <section class="sec-one">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-sm-2"></div> -->
+                <div class="col-sm">
+                    <!-- i am creating login background image  -->
+                    <div id="main">
+                        <div id="form1">
+                            <div id="content">
+
+                                <h2>Create an account</h2>
+
+                                <div id="account">
+                                    <p>Already have an account</p> <a href="studentlogin.html">sign in</a>
+                                </div>
+
+                                <div id="formarea">
+                                    <form action="">
+                                        <label for="">Full Name</label>
+                                        <input type="text" placeholder="John Doe" class="name" required>
+
+                                        <label for="">Email address</label>
+                                        <input type="text" placeholder="example123@gmail.com" class="email" required>
+
+                                        <label for="">Discipline</label>
+                                        <input type="text" placeholder="Engineering" class="email" required>
+
+                                        <form>
+                                            <div class="row">
+                                              <div class="col">
+                                                <label for="">School</label>
+                                                <input type="text" class="form-control" placeholder="University of yale">
+                                              </div>
+                                              <div class="col">
+                                                <label for="">Experience</label>
+                                                <input type="number" class="form-control" placeholder="three">
+                                              </div>
+                                            </div>
+                                          </form>
+
+                                          <form>
+                                            <div class="row">
+                                              <div class="col">
+                                                <label for="">Country</label>
+                                                <input type="text" class="form-control" placeholder="Nigeria">
+                                              </div>
+                                              <div class="col">
+                                                <label for="">State</label>
+                                                <input type="number" class="form-control" placeholder="Lagos">
+                                              </div>
+                                            </div>
+                                          </form>
+
+                                          <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Highest Qualification</label>
+                                            <select class="form-control" id="exampleFormControlSelect1">
+                                                <option>HND</option>
+                                              <option>Bsc</option>
+                                              <option>Msc</option>
+                                              <option>Phd</option>
+                                              
+                                            </select>
+                                          </div>
+
+
+
+
+                                        <label for="">Password</label>
+                                        <input type="password" class="pass" placeholder="***********" required>
+                                        <!-- <button type="button" class="eye"> <img src="images/eye.png" alt=""></button> -->
+                                    </form>
+                                </div>
+
+                                <h4>Email me about:</h4>
+
+                                <div id="check">
+                                    <input type="checkbox" id="box"> Newsletters on new courses, recommendations and
+                                    invitations to
+                                    partake in our Programmes</p>
+                                </div>
+
+                                <div id="submit">
+                                    <a href="studentdashboard.html">Create Account</a>
+                                </div>
+
+                                <div id="terms">
+                                    <p>By clicking “Create Account”, I agree to TutorUs <a href="#"> Terms &
+                                            Conditions</a> and
+                                        <a href="#">Privacy Policy</a> , and I agree to abide by the <a href="#">Code of
+                                            Conduct</a>
+                                    </p>
+                                </div>
+
+                                <div id="option">
+                                    <hr>
+                                    <h3>Or</h3>
+                                </div>
+
+
+
+                                <div id="signup">
+                                    <h3>Sign up with</h3>
+                                </div>
+
+                                <div id="links">
+                                    <a href="#"> <img src="https://img.icons8.com/color/40/000000/microsoft.png" /></a>
+                                    <a href="#"> <img src="https://img.icons8.com/plasticine/40/000000/google-logo.png"
+                                            id="pic2" /></a>
+                                    <a href="#"> <img src="https://img.icons8.com/fluent/40/000000/facebook-new.png"
+                                            id="pic3" /></a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+    </section>
+
+
+    <!-- end of section 1 -->
+
+
+
+    <!-- section6 begins -->
+    <section class="sec-six">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm col-md-6 col-lg ">
+                    <a href="aboutus.html">
+                        <p>About Us</p>
+                    </a>
+                </div>
+                <div class="col-sm col-md-6 col-lg">
+                    <a href="">
+                        <p>Enrol now</p>
+                    </a>
+
+                </div>
+                <div class="col-sm col-md-6 col-lg">
+                    <a href="">
+                        <p>Become a Tutor</p>
+                    </a>
+
+                </div>
+                <div class="col-sm col-md-6 col-lg">
+                    <a href="">
+                        <p>Contact Us</p>
+                    </a>
+                </div>
+
+                <div class="col-sm col-md-6 col-lg">
+                    <a href="">
+                        <p>Donate</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- social media -->
+            <div class="row text-center text-justify social">
+
+                <div class="class col-sm icons">
+                    <a href=""><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                    <a href=""> <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+
+            <div class="row foot">
+                <div class="col-sm foots">
+                    <p>Copyright &copy; 2020 Taiwo Solutions</p>
+
+                </div>
+
+            </div>
+    </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
